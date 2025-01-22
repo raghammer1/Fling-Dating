@@ -5,7 +5,6 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 const bodyParser = require('body-parser');
 
-// PORT is for when app is hosted then API_PORT is for local environment
 const PORT = process.env.PORT || process.env.API_PORT;
 
 const app = express();
